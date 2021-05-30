@@ -2,3 +2,25 @@
 //// ForYouTube
 
 //// sass lesson
+
+
+
+
+$p-color:#3A3335;
+$a-color:#EB5E55;
+
+$font-r:400;
+$font-m:500;
+$font-b:700;
+
+.container{
+    background-color: $p-color;
+}
+
+.main{
+
+    h3{
+        font-weight: $font-r;
+        color: $a-color;
+    }
+}
