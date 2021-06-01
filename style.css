@@ -1,8 +1,22 @@
-.container {
-  background-color: #3A3335;
+.box {
+  width: 90vw;
+  height: 90vh;
+  border-radius: 20px;
+  margin: 3vh auto;
+  padding: 10px;
+  position: relative;
+  background-color: #6E2594;
 }
 
-.main h3 {
-  font-weight: 400;
-  color: #EB5E55;
+.miniBox {
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  margin: auto;
+  padding: 20px;
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  background-color: #ECD444;
 }/*# sourceMappingURL=style.css.map */
